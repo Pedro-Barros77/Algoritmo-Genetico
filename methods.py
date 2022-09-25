@@ -5,8 +5,9 @@ def sum_values(_list):
     return sum(_list)
 
 #Cria a população inicial, contendo x individuos com y genes em cada
-def create_population(population_size, gene_size):
-    population = np.random.randint(1,10, (population_size, gene_size))
+def create_population(MIM_GENE_VALUE, MAX_GENE_VALUE,population_size,gene_size,):
+
+    population = np.random.randint(MIM_GENE_VALUE,MAX_GENE_VALUE, (population_size, gene_size))
     return population.tolist()
 
 #retorna os individuos da população que tingiram valor mínimo da soma dos genes
@@ -57,7 +58,7 @@ def crossover(population, TOTAL_POPULATION):
 
 # Operador genético que escolhe um gene aleatório do cromossomo e altera
 # o valor aleatoriamente
-def mutation(chance, population):
+def mutation(chance, population,MIM_GENE_VALUE, MAX_GENE_VALUE):
     mutateds = []
         
     GENE_SIZE = len(population[0])-1
@@ -66,7 +67,7 @@ def mutation(chance, population):
         if value > chance * 100:
             continue
         rand_index = random.randint(0,GENE_SIZE)
-        rand_value = random.randint(0,9)
+        rand_value = random.randint(MIM_GENE_VALUE,MAX_GENE_VALUE)
         c[rand_index] = rand_value
         mutateds.append(c)
     return mutateds

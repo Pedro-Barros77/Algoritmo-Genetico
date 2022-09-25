@@ -30,7 +30,7 @@ Resultado:
 
 A Heurística utilizada foi simplesmente somar todos os valores dos genes, sendo assim quanto maior o valor mais perto do ideal está.
 Dentre os nossos planos estão:
-- [ ] Adicionar personalização do intervalo de valores possíveis para os genes
+- [x] Adicionar personalização do intervalo de valores possíveis para os genes
 - [ ] Adicionar personalização da Eurística (soma, subtração, multiplicação, números primos, números ímpares, números pares, divisíveis por X
 - [ ] Criar interface gráfica amigável para o usuário e para acompanhamento do processo e de estatísticas
 

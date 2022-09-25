@@ -24,18 +24,20 @@ def main():
     CHOSEN_PERCENTAGE = 0.3
     MUTATION_PERCENTAGE = 0.01
     MIN_SUCCEEDED = 1
+    MIM_GENE_VALUE = 1
+    MAX_GENE_VALUE = 9
     
-    MAX_VALUE = (9*TOTAL_GENES)
+    MAX_VALUE = (MAX_GENE_VALUE*TOTAL_GENES)
     TARGET_VALUE = int(TARGET_PERCENTAGE * MAX_VALUE)
     
-    first_population = md.create_population(TOTAL_POPULATION,TOTAL_GENES)
+    first_population = md.create_population(MIM_GENE_VALUE,MAX_GENE_VALUE,TOTAL_POPULATION,TOTAL_GENES)
     succeeded_chromosomes = md.get_best_chromosomes(first_population, TARGET_VALUE)
     
     _generations = 1
     _mutations = 0
     while len(succeeded_chromosomes) < MIN_SUCCEEDED:
         chosen_parents = md.get_best_scores(CHOSEN_PERCENTAGE, first_population)
-        mutated_population = md.mutation(MUTATION_PERCENTAGE, chosen_parents)
+        mutated_population = md.mutation(MUTATION_PERCENTAGE, chosen_parents,MIM_GENE_VALUE, MAX_GENE_VALUE)
         crossed_population = md.crossover(chosen_parents, TOTAL_POPULATION if not mutated_population else (TOTAL_POPULATION - len(mutated_population)))
         new_population = crossed_population if not mutated_population else mutated_population + crossed_population
         succeeded_chromosomes = md.get_best_chromosomes(new_population, TARGET_VALUE)
