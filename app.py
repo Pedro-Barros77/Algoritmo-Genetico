@@ -125,7 +125,7 @@ class menu_principal(QMainWindow, Ui_MainWindow):
 
     
     def show_graph(self):
-        print("Não esquecer de colocar a função")
+        print("Em desenvolvimento")
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)        

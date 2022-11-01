@@ -182,42 +182,58 @@ class Ui_MainWindow(object):
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.menu_frame_labels)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.lbl_total_population = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_total_population.setStyleSheet("border: 1px solid black;")
+        self.lbl_total_population.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_total_population.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_total_population.setObjectName("lbl_total_population")
         self.verticalLayout_4.addWidget(self.lbl_total_population)
         self.lbl_total_genes = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_total_genes.setStyleSheet("border: 1px solid black;")
+        self.lbl_total_genes.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_total_genes.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_total_genes.setObjectName("lbl_total_genes")
         self.verticalLayout_4.addWidget(self.lbl_total_genes)
         self.lbl_max_gene = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_max_gene.setStyleSheet("border: 1px solid black;")
+        self.lbl_max_gene.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_max_gene.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_max_gene.setObjectName("lbl_max_gene")
         self.verticalLayout_4.addWidget(self.lbl_max_gene)
         self.lbl_min_gene = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_min_gene.setStyleSheet("border: 1px solid black;")
+        self.lbl_min_gene.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_min_gene.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_min_gene.setObjectName("lbl_min_gene")
         self.verticalLayout_4.addWidget(self.lbl_min_gene)
         self.lbl_target_percentage = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_target_percentage.setStyleSheet("border: 1px solid black;")
+        self.lbl_target_percentage.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_target_percentage.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_target_percentage.setObjectName("lbl_target_percentage")
         self.verticalLayout_4.addWidget(self.lbl_target_percentage)
         self.lbl_min_succeeded = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_min_succeeded.setStyleSheet("border: 1px solid black;")
+        self.lbl_min_succeeded.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_min_succeeded.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_min_succeeded.setObjectName("lbl_min_succeeded")
         self.verticalLayout_4.addWidget(self.lbl_min_succeeded)
         self.lbl_chosen_percentage = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_chosen_percentage.setStyleSheet("border: 1px solid black;")
+        self.lbl_chosen_percentage.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_chosen_percentage.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_chosen_percentage.setObjectName("lbl_chosen_percentage")
         self.verticalLayout_4.addWidget(self.lbl_chosen_percentage)
         self.lbl_mutation_percentage = QtWidgets.QLabel(self.menu_frame_labels)
-        self.lbl_mutation_percentage.setStyleSheet("border: 1px solid black;")
+        self.lbl_mutation_percentage.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_mutation_percentage.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_mutation_percentage.setObjectName("lbl_mutation_percentage")
         self.verticalLayout_4.addWidget(self.lbl_mutation_percentage)
@@ -234,7 +250,9 @@ class Ui_MainWindow(object):
         self.spinbox_population = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_population.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_population.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_population.setStyleSheet("border: 1px solid black;")
+        self.spinbox_population.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_population.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_population.setMinimum(8)
         self.spinbox_population.setMaximum(5000)
@@ -244,7 +262,9 @@ class Ui_MainWindow(object):
         self.spinbox_total_genes = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_total_genes.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_total_genes.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_total_genes.setStyleSheet("border: 1px solid black;")
+        self.spinbox_total_genes.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_total_genes.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_total_genes.setMinimum(1)
         self.spinbox_total_genes.setMaximum(5000)
@@ -254,7 +274,9 @@ class Ui_MainWindow(object):
         self.spinbox_max_genes = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_max_genes.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_max_genes.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_max_genes.setStyleSheet("border: 1px solid black;")
+        self.spinbox_max_genes.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_max_genes.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_max_genes.setMinimum(1)
         self.spinbox_max_genes.setMaximum(5000)
@@ -264,7 +286,9 @@ class Ui_MainWindow(object):
         self.spinbox_min_genes = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_min_genes.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_min_genes.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_min_genes.setStyleSheet("border: 1px solid black;")
+        self.spinbox_min_genes.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_min_genes.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_min_genes.setMinimum(1)
         self.spinbox_min_genes.setMaximum(5000)
@@ -274,7 +298,9 @@ class Ui_MainWindow(object):
         self.spinbox_taget_percentage = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_taget_percentage.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_taget_percentage.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_taget_percentage.setStyleSheet("border: 1px solid black;")
+        self.spinbox_taget_percentage.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_taget_percentage.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_taget_percentage.setMinimum(1)
         self.spinbox_taget_percentage.setMaximum(100)
@@ -284,7 +310,9 @@ class Ui_MainWindow(object):
         self.spinbox_min_succeeded = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_min_succeeded.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_min_succeeded.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_min_succeeded.setStyleSheet("border: 1px solid black;")
+        self.spinbox_min_succeeded.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_min_succeeded.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_min_succeeded.setMinimum(1)
         self.spinbox_min_succeeded.setMaximum(5000)
@@ -294,7 +322,9 @@ class Ui_MainWindow(object):
         self.spinbox_chosen_percentage = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_chosen_percentage.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_chosen_percentage.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_chosen_percentage.setStyleSheet("border: 1px solid black;")
+        self.spinbox_chosen_percentage.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_chosen_percentage.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_chosen_percentage.setMinimum(1)
         self.spinbox_chosen_percentage.setMaximum(100)
@@ -304,7 +334,9 @@ class Ui_MainWindow(object):
         self.spinbox_mutation_percentage = QtWidgets.QSpinBox(self.menu_insert_info_burguer)
         self.spinbox_mutation_percentage.setMinimumSize(QtCore.QSize(30, 18))
         self.spinbox_mutation_percentage.setMaximumSize(QtCore.QSize(40, 18))
-        self.spinbox_mutation_percentage.setStyleSheet("border: 1px solid black;")
+        self.spinbox_mutation_percentage.setStyleSheet("border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.spinbox_mutation_percentage.setAlignment(QtCore.Qt.AlignCenter)
         self.spinbox_mutation_percentage.setMaximum(100)
         self.spinbox_mutation_percentage.setProperty("value", 1)
@@ -437,7 +469,8 @@ class Ui_MainWindow(object):
         self.lbl_min_succeed.setMaximumSize(QtCore.QSize(83, 16777215))
         self.lbl_min_succeed.setBaseSize(QtCore.QSize(0, 0))
         self.lbl_min_succeed.setStyleSheet("background-color: rgba(255, 255, 255, 0);\n"
-"font: 12pt \"MS Shell Dlg 2\";")
+"font: 12pt \"MS Shell Dlg 2\";\n"
+"color: rgb(0, 0, 0);")
         self.lbl_min_succeed.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.lbl_min_succeed.setObjectName("lbl_min_succeed")
         self.horizontalLayout_13.addWidget(self.lbl_min_succeed)
@@ -463,7 +496,8 @@ class Ui_MainWindow(object):
         self.lbl_perfect_numb = QtWidgets.QLabel(self.conteiner_lbl_perfect)
         self.lbl_perfect_numb.setMaximumSize(QtCore.QSize(60, 16777215))
         self.lbl_perfect_numb.setStyleSheet("background-color: rgba(255, 255, 255, 0);\n"
-"font: 12pt \"MS Shell Dlg 2\";")
+"font: 12pt \"MS Shell Dlg 2\";\n"
+"color: rgb(0, 0, 0);")
         self.lbl_perfect_numb.setObjectName("lbl_perfect_numb")
         self.horizontalLayout_14.addWidget(self.lbl_perfect_numb)
         self.lbl_perfect_value = QtWidgets.QLabel(self.conteiner_lbl_perfect)
@@ -652,6 +686,7 @@ class Ui_MainWindow(object):
         self.lbl_first_place_value.setStyleSheet("border: 1px solid black;\n"
 "border-radius: 18px; \n"
 "background-color: rgba(255, 255, 255, 0);\n"
+"color: rgb(0, 0, 0);\n"
 "")
         self.lbl_first_place_value.setText("")
         self.lbl_first_place_value.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
@@ -670,7 +705,9 @@ class Ui_MainWindow(object):
         self.lbl_first_place_sum.setMinimumSize(QtCore.QSize(40, 0))
         self.lbl_first_place_sum.setMaximumSize(QtCore.QSize(40, 16777215))
         self.lbl_first_place_sum.setStyleSheet("border-radius: 20px; \n"
-"border: 1px solid black;")
+"border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_first_place_sum.setText("")
         self.lbl_first_place_sum.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_first_place_sum.setObjectName("lbl_first_place_sum")
@@ -682,12 +719,16 @@ class Ui_MainWindow(object):
         self.tableWidget.setAutoFillBackground(False)
         self.tableWidget.setStyleSheet("QTableView {\n"
 "    background-color: rgba(107, 117, 122,100);\n"
+"    color: rgb(0, 0, 0);\n"
+"\n"
 "}\n"
 "QTableView::item{\n"
 "       border: 1px solid black;\n"
 "       border-radius: 10px;\n"
 "    background-color: rgb(255, 255, 255);\n"
 "    margin: 4; \n"
+"    color: rgb(0, 0, 0);\n"
+"\n"
 "}\n"
 "")
         self.tableWidget.setSizeAdjustPolicy(QtWidgets.QAbstractScrollArea.AdjustToContents)
@@ -743,7 +784,9 @@ class Ui_MainWindow(object):
         self.lbl_second_place_sum.setMinimumSize(QtCore.QSize(40, 0))
         self.lbl_second_place_sum.setMaximumSize(QtCore.QSize(40, 16777215))
         self.lbl_second_place_sum.setStyleSheet("border-radius: 20px; \n"
-"border: 1px solid black;")
+"border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_second_place_sum.setText("")
         self.lbl_second_place_sum.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_second_place_sum.setObjectName("lbl_second_place_sum")
@@ -781,7 +824,9 @@ class Ui_MainWindow(object):
         self.lbl_third_place_sum.setMinimumSize(QtCore.QSize(40, 0))
         self.lbl_third_place_sum.setMaximumSize(QtCore.QSize(40, 16777215))
         self.lbl_third_place_sum.setStyleSheet("border-radius: 20px; \n"
-"border: 1px solid black;")
+"border: 1px solid black;\n"
+"color: rgb(0, 0, 0);\n"
+"")
         self.lbl_third_place_sum.setText("")
         self.lbl_third_place_sum.setAlignment(QtCore.Qt.AlignCenter)
         self.lbl_third_place_sum.setObjectName("lbl_third_place_sum")
@@ -860,7 +905,8 @@ class Ui_MainWindow(object):
         self.gridLayout_2.addWidget(self.lbl_gens_name, 0, 0, 1, 1)
         self.lbl_elapsed_time_name = QtWidgets.QLabel(self.lif_holder_lbl_container)
         self.lbl_elapsed_time_name.setMaximumSize(QtCore.QSize(16777215, 30))
-        self.lbl_elapsed_time_name.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";\n"
+        self.lbl_elapsed_time_name.setStyleSheet("color: rgb(0,0,0);\n"
+"font: 12pt \"MS Shell Dlg 2\";\n"
 "background-color: rgba(255, 255, 255, 0);\n"
 "border:none;")
         self.lbl_elapsed_time_name.setAlignment(QtCore.Qt.AlignCenter)
@@ -876,9 +922,10 @@ class Ui_MainWindow(object):
         self.gridLayout_2.addWidget(self.lbl_worst_score_value, 3, 1, 1, 1)
         self.lbl_best_score_name = QtWidgets.QLabel(self.lif_holder_lbl_container)
         self.lbl_best_score_name.setMaximumSize(QtCore.QSize(16777215, 30))
-        self.lbl_best_score_name.setStyleSheet("border:none;\n"
+        self.lbl_best_score_name.setStyleSheet("color: rgb(0,0,0);\n"
 "font: 12pt \"MS Shell Dlg 2\";\n"
-"background-color: rgba(255, 255, 255, 0);")
+"background-color: rgba(255, 255, 255, 0);\n"
+"border:none;")
         self.lbl_best_score_name.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lbl_best_score_name.setObjectName("lbl_best_score_name")
         self.gridLayout_2.addWidget(self.lbl_best_score_name, 2, 0, 1, 1)
@@ -908,9 +955,10 @@ class Ui_MainWindow(object):
         self.gridLayout_2.addWidget(self.lbl_muts_value, 1, 1, 1, 1)
         self.lbl_worst_score_name = QtWidgets.QLabel(self.lif_holder_lbl_container)
         self.lbl_worst_score_name.setMaximumSize(QtCore.QSize(16777215, 30))
-        self.lbl_worst_score_name.setStyleSheet("border:none;\n"
+        self.lbl_worst_score_name.setStyleSheet("color: rgb(0,0,0);\n"
 "font: 12pt \"MS Shell Dlg 2\";\n"
-"background-color: rgba(255, 255, 255, 0);")
+"background-color: rgba(255, 255, 255, 0);\n"
+"border:none;")
         self.lbl_worst_score_name.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lbl_worst_score_name.setObjectName("lbl_worst_score_name")
         self.gridLayout_2.addWidget(self.lbl_worst_score_name, 3, 0, 1, 1)
@@ -967,7 +1015,8 @@ class Ui_MainWindow(object):
 "    \n"
 "    background-color: rgb(161, 255, 195);\n"
 "    color: rgb(10, 153, 73);\n"
-"    font: 75 26pt \"MS Shell Dlg 2\";\n"
+"    \n"
+"    font: 26pt \"Arial\";\n"
 "    border: 2px solid  rgb(97, 184, 133);\n"
 "    border-radius: 35px;\n"
 "}\n"
@@ -988,7 +1037,7 @@ class Ui_MainWindow(object):
 "    color:;\n"
 "    color: rgb(186, 54, 54);\n"
 "    border-radius: 35px;\n"
-"    font: 75 22pt \"MS Shell Dlg 2\";\n"
+"    font: 22pt \"Arial\";\n"
 "}\n"
 "QPushButton:disabled{    \n"
 "    background-color: rgb(200,200, 200);\n"
@@ -1012,7 +1061,7 @@ class Ui_MainWindow(object):
 "    border: 2px solid  rgb(67, 178, 176);\n"
 "    color: rgb(31, 115, 127);\n"
 "    border-radius: 35px;\n"
-"    font: 75 22pt \"MS Shell Dlg 2\";\n"
+"    font: 26pt \"Arial\";\n"
 "}\n"
 "")
         self.btn_view_graph.setObjectName("btn_view_graph")
@@ -1046,7 +1095,7 @@ class Ui_MainWindow(object):
         self.lbl_perfect_numb.setText(_translate("MainWindow", "Perfect:"))
         self.tableWidget.setSortingEnabled(False)
         self.lbl_muts_name.setText(_translate("MainWindow", "Mutations:"))
-        self.lbl_gens_name.setText(_translate("MainWindow", "Generetions:"))
+        self.lbl_gens_name.setText(_translate("MainWindow", "Generations:"))
         self.lbl_elapsed_time_name.setText(_translate("MainWindow", "Elapsed Time:"))
         self.lbl_worst_score_value.setText(_translate("MainWindow", "0"))
         self.lbl_best_score_name.setText(_translate("MainWindow", "Best Score:"))
@@ -1058,7 +1107,6 @@ class Ui_MainWindow(object):
         self.btn_start_restart.setText(_translate("MainWindow", "START"))
         self.btn_cancel.setText(_translate("MainWindow", "CANCEL PROCESS"))
         self.btn_view_graph.setText(_translate("MainWindow", "VIEW GRAPH"))
-
 
 
 if __name__ == "__main__":
