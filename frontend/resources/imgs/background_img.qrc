@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="img_back">
+    <file>tec_background.jpeg</file>
+  </qresource>
+</RCC>

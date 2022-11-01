@@ -32,6 +32,6 @@ A Heurística utilizada foi simplesmente somar todos os valores dos genes, sendo
 Dentre os nossos planos estão:
 - [x] Adicionar personalização do intervalo de valores possíveis para os genes
 - [ ] Adicionar personalização da Eurística (soma, subtração, multiplicação, números primos, números ímpares, números pares, divisíveis por X
-- [ ] Criar interface gráfica amigável para o usuário e para acompanhamento do processo e de estatísticas
+- [x] Criar interface gráfica amigável para o usuário e para acompanhamento do processo e de estatísticas
 
 :green_circle: Uso e implementação livre, favor incluir os devidos créditos

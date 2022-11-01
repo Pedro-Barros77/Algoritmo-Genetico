@@ -1,0 +1,47 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons8-seta-longa-acima-50.png</file>
+    <file>slice-50.png</file>
+    <file>percentage-growth-50.png</file>
+    <file>pass-50.png</file>
+    <file>mingen.png</file>
+    <file>icons8-seta-longa-abaixo-50.png</file>
+    <file>grafico-de-porcentagem.png</file>
+    <file>icons8-seta-longa-abaixo-50.png</file>
+    <file>mingen.png</file>
+    <file>pessoas.png</file>
+    <file>icons8-abrir-pasta-50.png</file>
+    <file>icons8-actualizar-50.png</file>
+    <file>icons8-arquivo-50.png</file>
+    <file>icons8-atendimento-50.png</file>
+    <file>fita-do-lugar.png</file>
+    <file>icons8-ativar-desativar-tela-cheia-50.png</file>
+    <file>icons8-cardápio-50.png</file>
+    <file>icons8-cardápio-50-2.png</file>
+    <file>icons8-cardápioX.gif</file>
+    <file>icons8-configurações-50.png</file>
+    <file>icons8-editar-50.png</file>
+    <file>icons8-excluir-50.png</file>
+    <file>icons8-gráfico-50.png</file>
+    <file>icons8-gráfico-de-linha-50.png</file>
+    <file>icons8-hélice-de-dna-50.png</file>
+    <file>icons8-lixo-50.png</file>
+    <file>icons8-lixo-50-2.png</file>
+    <file>icons8-maximizar-janela-50.png</file>
+    <file>icons8-medalha-de-segundo-lugar-50.png</file>
+    <file>icons8-minimizar-janela-50.png</file>
+    <file>icons8-pasta-50.png</file>
+    <file>icons8-reiniciar-50.png</file>
+    <file>icons8-remover-50.png</file>
+    <file>icons8-restore-down-50.png</file>
+    <file>icons8-second-place-ribbon-50.png</file>
+    <file>icons8-selecionado-50.png</file>
+    <file>icons8-serviços-50.png</file>
+    <file>icons8-serviços-50-2.png</file>
+    <file>icons8-stretch-tool-50.png</file>
+    <file>icons8-subtração-50.png</file>
+    <file>icons8-suporte-50.png</file>
+    <file>icons8-third-place-ribbon-50.png</file>
+    <file>icons8-trofeu-50.png</file>
+  </qresource>
+</RCC>
