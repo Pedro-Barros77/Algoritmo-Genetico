@@ -15,23 +15,20 @@ O algorítmo utiliza do modelo evolutivo de _Charles Darwin_, onde os melhores/m
 Através de cruzamento genético e mutações, a IA consegue aprimorar os genes de cada cromossomo até que alcance o valor desejado.
 
 Os parâmetros são customizáveis:
-```
-TOTAL_POPULATION = 50
-TOTAL_GENES = 5
-TARGET_PERCENTAGE = 0.98
-CHOSEN_PERCENTAGE = 0.3
-MUTATION_PERCENTAGE = 0.01
-MIN_SUCCEEDED = 1
-```
+
+![Left Menu Screenshot](https://user-images.githubusercontent.com/85514585/201171337-a1726815-99d2-44f2-ad2e-a9c9a78dfac8.png)
+
+
 Resultado:
 
-![Resultado obtido no console](https://user-images.githubusercontent.com/85514585/192126530-0ee34ed2-aaad-4e4d-bf4e-e43a11e440a3.png)
+![Result Screenshot](https://user-images.githubusercontent.com/85514585/201171690-bc77753c-b9dd-4c4b-ad65-7f7ee8fb289c.png)
+
 
 
 A Heurística utilizada foi simplesmente somar todos os valores dos genes, sendo assim quanto maior o valor mais perto do ideal está.
 Dentre os nossos planos estão:
 - [x] Adicionar personalização do intervalo de valores possíveis para os genes
 - [ ] Adicionar personalização da Eurística (soma, subtração, multiplicação, números primos, números ímpares, números pares, divisíveis por X
-- [ ] Criar interface gráfica amigável para o usuário e para acompanhamento do processo e de estatísticas
+- [x] Criar interface gráfica amigável para o usuário e para acompanhamento do processo e de estatísticas
 
 :green_circle: Uso e implementação livre, favor incluir os devidos créditos
